@@ -1,11 +1,12 @@
 def fizzbuzz(int)
   if int % 3 == 0
-    "Fizz" # Go fizz
+    "Fizz"
   elsif int % 5 == 0
-    str = "Buzz"
+    "Buzz"
   elsif int % 15 == 0
-    str = "FizzBuzz"
-  else str = nil  
+    "FizzBuzz"
+  elsif int % 3 !=0 || int % 5 !=0  
+    nil
   end
 end
  
