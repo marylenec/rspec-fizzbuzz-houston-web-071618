@@ -1,11 +1,11 @@
 def fizzbuzz(int)
-  if int % 15 == 0 # if the number int is divisible by 3
-    "Fizzbuzz" # Go fizz
+  if int % 3 == 0 # if the number int is divisible by 3
+    str = "Fizz" # Go fizz
   elsif int % 5 == 0
-    "Buzz"
-  elsif int % 3 == 0
-    "Fizz"
-  else nil  
+    str = "Buzz"
+  elsif int % 15 == 0
+    str = "FizzBuzz"
+  else str = nil  
   end
 end
  
